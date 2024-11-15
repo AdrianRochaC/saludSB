@@ -1,0 +1,129 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+html{
+    background-color: #559EC4;
+    }
+    
+    *{
+        margin:0;padding:0;
+    }
+    .busqueda{
+        padding: 5px;
+        margin-right: 20px; /* Espacio a la derecha */
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #559EC4;
+    }
+    
+    .logo img {
+        height: 60px; /* Ajustar la altura del logo para que sea más pequeño */
+        width: auto; /* Mantener la proporción del logo */
+        padding: 20px;
+    }
+    
+    .search {
+        display: flex;
+        align-items: center;
+    }
+    
+    .search input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .search button {
+        background: none; /* Sin fondo */
+        border: none; /* Sin borde */
+        cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+        padding: 0 10px; /* Espacio alrededor del icono */
+    }
+    
+    .search button svg {
+        fill: #000; /* Color del icono SVG */
+        width: 20px; /* Ancho del icono */
+        height: 20px; /* Alto del icono */
+    }
+    .iconos {
+        display: flex; /* Usar flexbox para alinear los íconos en línea */
+        align-items: center; /* Alinear verticalmente los íconos */
+    }
+    
+    svg {
+        width: 30px; /* Cambia el tamaño deseado */
+        height: 30px; /* Cambia el tamaño deseado */
+        margin-left: 20px; /* Espacio a la izquierda de cada ícono SVG */
+        cursor: pointer; /* Cambiar cursor al pasar sobre el ícono */
+        margin-right: 20px;
+    }
+a, ul{
+
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+section#banner{
+    width: 100%;
+    height:220px;
+    float:left;
+    background-color:#559EC4;
+    border: white 2px solid;
+}
+section#contenido{
+    width: 100%;
+    height:1600px;
+    margin: auto;
+    background-color: #D1ECFA;
+    border: white 2px solid;
+}
+
+section#redesSociales {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #559EC4;
+    border: white 2px solid;
+}
+
+#logo{
+     width: 210px;
+    height: 210px;
+}
+#producto{
+    width: 250px;
+    height:250px;
+    padding: 10px;
+}
+#titulo{
+     width: 652px;
+    height: 190px;
+}
+#perfil{
+     width: 180px;
+    height: 180px;
+}
+#carrito{
+     width: 180px;
+    height: 180px;
+}
+
+#imagen1{
+    width: 300px;
+    height: 300px;
+}
+#A1{
+    width: 180px;
+    height: 180px;
+} 
+i{
+    padding: 20px;
+    font-size: 60px;
+}
+
+
